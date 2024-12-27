@@ -16,6 +16,8 @@ COPY . .
 # Build the application
 RUN go build -o app .
 
+
+
 # Stage 2: Run
 FROM debian:bullseye-slim
 
